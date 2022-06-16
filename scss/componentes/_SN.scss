@@ -1,0 +1,21 @@
+#sobreNosotros{
+    background-color: nth($colors,7);
+    padding-top: nth($size,6);
+    .row{
+        row-gap: nth($size,6)
+    }
+    .sobreNos{
+        @extend %divs-parr;
+    }
+    .sobreCafe{
+        @extend %divs-parr;
+    }
+    .video{
+        @extend %display;
+        padding: nth($size, 3);
+    }
+    h3{
+        font-size: nth($size, 4);
+        font-weight: bolder;
+    }
+}

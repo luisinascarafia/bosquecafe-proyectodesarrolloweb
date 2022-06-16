@@ -1,0 +1,53 @@
+header{
+    width: 100%;
+    @extend %display;
+    .titulo{
+    background-color: nth($colors, 1);
+    font-family: nth($letras,2);
+    font-size: nth($size, 2);
+    padding: nth($size,1);
+    }
+    .menu{
+        background-color: nth($colors, 2);
+        font-family: nth($letras, 3);
+        padding: nth($size, 9);
+        font-size: nth($size, 5);
+        color: nth($colors, 5);;
+    }
+}
+#inicio{
+    background-color: nth($colors, 7);
+    padding-bottom: nth($size, 3);
+    .container-inicio{
+        margin:0; padding:0;
+    }
+    .row{
+        row-gap: nth($size, 7);
+    }
+    .presentacion{
+        padding: nth($size,2);
+        background-color: nth($colors,3);
+        color: nth($colors, 4);
+        font-size: nth($size, 6);
+        font-family: nth($letras,3);
+        @extend %display;
+    }
+    h3{
+        font-size: nth($size,6);
+        font-weight: bolder;
+    }
+    .div1{
+        @extend %divs-parr;
+    }
+    .div2{
+        @extend %divs-parr;
+    }
+    .btn{
+        background-color: nth($colors,3);
+        color: nth($colors, 6);
+        font-family: nth($letras,1);
+        font-size: nth($size, 8);
+        padding: nth($size, 6);
+        border-radius: 10px;
+    }
+}

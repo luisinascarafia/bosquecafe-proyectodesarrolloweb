@@ -1,0 +1,11 @@
+%display{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+%divs-parr{
+    padding: nth($size,1);
+    font-family: nth($letras, 1);
+    font-size: nth($size,7);
+}

@@ -1,0 +1,140 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sobreNosotros .video, footer, #inicio .presentacion, header {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.div--ig, .carta, #sobreNosotros .sobreCafe, #sobreNosotros .sobreNos, #inicio .div2, #inicio .div1 {
+  padding: 5rem;
+  font-family: "Raleway";
+  font-size: 1.8rem;
+}
+
+header {
+  width: 100%;
+}
+header .titulo {
+  background-color: #7d9e3c;
+  font-family: "Cinzel";
+  font-size: 4rem;
+  padding: 5rem;
+}
+header .menu {
+  background-color: #fe9f8c;
+  font-family: "Montaga";
+  padding: 1rem;
+  font-size: 2.3rem;
+  color: black;
+}
+
+#inicio {
+  background-color: rgba(250, 248, 120, 0.768627451);
+  padding-bottom: 3rem;
+}
+#inicio .container-inicio {
+  margin: 0;
+  padding: 0;
+}
+#inicio .row {
+  row-gap: 1.8rem;
+}
+#inicio .presentacion {
+  padding: 4rem;
+  background-color: #b17653;
+  color: #efed89;
+  font-size: 2rem;
+  font-family: "Montaga";
+}
+#inicio h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#inicio .btn {
+  background-color: #b17653;
+  color: white;
+  font-family: "Raleway";
+  font-size: 1.7rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #9ab250;
+  font-family: "Halant";
+  font-size: 2rem;
+  padding: 2.5rem;
+}
+
+#sobreNosotros {
+  background-color: rgba(250, 248, 120, 0.768627451);
+  padding-top: 2rem;
+}
+#sobreNosotros .row {
+  row-gap: 2rem;
+}
+#sobreNosotros .video {
+  padding: 3rem;
+}
+#sobreNosotros h3 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.carta {
+  background-color: rgba(250, 248, 120, 0.768627451);
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content;
+  grid-template-areas: "img seccion";
+  /*media query*/
+}
+.carta h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.carta h4 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.carta li {
+  list-style-type: none;
+}
+.carta .img {
+  grid-area: img;
+}
+.carta .seccion {
+  grid-area: seccion;
+}
+@media screen and (max-width: 320px) {
+  .carta #diseno {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carta #diseno {
+    display: none;
+  }
+}
+
+.div--ig {
+  background-color: rgba(250, 248, 120, 0.768627451);
+}
+.div--ig h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.div--ig .gal {
+  justify-content: space-between;
+  row-gap: 1.8rem;
+}
+
+/*# sourceMappingURL=bosquecafe.css.map */

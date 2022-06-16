@@ -1,0 +1,7 @@
+footer{
+    background-color: nth($colors,8);
+    font-family: nth($letras,4);
+    font-size: nth($size,6);
+    padding: nth($size,4);
+    @extend %display;
+}

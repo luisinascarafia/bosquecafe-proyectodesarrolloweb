@@ -1,0 +1,39 @@
+.carta{
+    @extend %divs-parr;
+    background-color: nth($colors,7);
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content;
+    grid-template-areas: 
+    "img seccion";
+
+    h3{
+        font-size: nth($size, 4);
+        font-weight: bold;
+    }
+    h4{
+        font-size: nth($size, 6);
+        font-weight:bolder; 
+    }
+    li{
+        list-style-type: none;
+    }
+    .img{
+        grid-area: img;
+    }
+    .seccion{
+        grid-area: seccion;
+    }
+    /*media query*/
+    @media screen and (max-width:320px){
+        #diseno {
+            display: none;
+        }
+    }
+    @media screen and (max-width:768px){
+        #diseno {
+            display: none;
+        }
+    }
+}
+

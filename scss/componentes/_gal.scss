@@ -1,0 +1,12 @@
+.div--ig{
+    @extend %divs-parr;
+    background-color: nth($colors, 7);
+    h3{
+        font-size: nth($size, 4);
+        font-weight: bold;
+    }
+    .gal{
+        justify-content: space-between;
+        row-gap: nth($size, 7);
+    }
+}
