@@ -8,5 +8,6 @@
     .gal{
         justify-content: space-between;
         row-gap: nth($size, 7);
+        @include imagenes;
     }
 }
