@@ -8,6 +8,16 @@ header{
     padding: map-get($encabezado, padd);
     color: map-get($encabezado, color);
     }
+    @media screen and (max-width:320px) {
+        .titulo{
+            font-size:nth($size,5);
+        }
+    }
+    @media screen and(max-width:768px) {
+        .titulo{
+            font-size: nth($size, 3);
+        }
+    }
     .menu{
         background-color: nth($colors, 2);
         font-family: nth($letras, 3);
@@ -50,5 +60,12 @@ header{
         font-size: nth($size, 8);
         padding: nth($size, 6);
         border-radius: 10px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .button:hover{
+        color: #644c19;
+        font-weight: bolder;
+        padding: nth($size, 5);
     }
 }
