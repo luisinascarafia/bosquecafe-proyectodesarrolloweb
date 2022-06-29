@@ -13,6 +13,7 @@ header{
             font-size:nth($size,5);
         }
     }
+    
     @media screen and(max-width:768px) {
         .titulo{
             font-size: nth($size, 3);
