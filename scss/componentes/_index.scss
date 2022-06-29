@@ -60,12 +60,9 @@ header{
         font-size: nth($size, 8);
         padding: nth($size, 6);
         border-radius: 10px;
-        cursor: pointer;
-        transition: all .3s;
+        transition: all ease-in-out 0.5s;
     }
-    .button:hover{
-        color: #644c19;
-        font-weight: bolder;
-        padding: nth($size, 5);
+    .btn:hover{
+        box-shadow: inset 14.82em 0 0 0 #644c19;
     }
 }
