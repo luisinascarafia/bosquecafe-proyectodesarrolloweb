@@ -151,4 +151,17 @@ footer {
   row-gap: 1.8rem;
 }
 
+@media (max-width:780px) {
+  .imgDiv1, .imgDiv2, .imgSobreNos, .imgSobreCafe{
+    width: 720px;
+    height: fit-content;
+  }
+}
+@media (max-width:320px) {
+  .imgDiv1, .imgDiv2, .imgSobreNos, .imgSobreCafe{
+    width: 300px;
+    height: fit-content;
+  }
+}
+
 /*# sourceMappingURL=bosquecafe.css.map */
